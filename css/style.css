@@ -1,0 +1,281 @@
+
+/**Nav bar styling**/
+.navbar {
+    background: linear-gradient(91.06deg, #081120 70.22%, #4971AE 97.07%);
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-family: 'Russo One', sans-serif !important;
+}
+
+.nav {
+    display: flex !important;
+}
+
+.dropdown-menu{
+    background-color: #F2F5F9;
+}
+
+.dropdown-item:hover{
+    background-color:#4971AE;
+}
+
+
+.primaryNav {
+    justify-content: center; 
+}
+
+.nav-link{
+    color: #FFFFFF !important;
+}
+
+.log-in-search{
+    justify-content: flex-end;
+}
+
+/**website btn styling**/
+.btn{
+    color: #FFFFFF;
+}
+
+.btn:hover{
+    background: #081120;
+}
+
+.btn-outline-success{
+    border-color:#081120;
+}
+
+.btn-outline-success:hover{
+    border-color:#081120;
+}
+
+/**jumbotron styling**/
+
+.jumbotron{
+    height: 65vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    align-items:flex-start !important;
+    background-image: url("../images/recycle_hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.display-4{
+    color: #FFFFFF;
+    font-family: "Roboto" sans-serif !important;
+    font-weight: 600;
+}
+
+#basic-addon1{
+    
+    width: 47px;
+    background-image: url("../images/search_icon_white.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*card stying*/
+
+.container-fluid {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-content: center;
+    
+}
+
+
+
+.card:hover {
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.card-body {
+    background: #F2F5F9 !important;
+    color: #4971AE;
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/blank\ card\ cover.png");
+
+}
+
+/*carousel stying*/
+
+
+
+.contents-2p {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    margin: 20px;
+
+}
+
+.card-2p {
+    width: 900px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-2pb{
+    width: 400px;
+    height: 100%;
+    margin-right: 20px !important;
+    background-color: #4971AE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-2pb h1 {
+    color: #FFFFFF;
+    text-align: center;
+ 
+}
+
+.card-2pb:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.active {
+    background-color: black !important;
+}
+
+.carousel-caption {
+    background: #F2F5F9 !important;
+    width: 100% !important; 
+    color: black;
+    background-color: #F2F5F9 !important; 
+    margin-bottom: 0px !important;
+}
+
+.carousel-caption h5 {
+    color: #4971AE;
+}
+
+/*footer*/
+
+#footerContainer { display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin: 0px;
+    height: 150px;
+    align-items: center;
+    background-color: #F2F5F9;
+}
+
+.footerNav{
+    display: flex;
+    list-style-type: none;
+    color: #4971AE;
+}
+
+li {
+    margin: 20px;
+}
+
+.socialsIcon{
+    display: flex;
+
+}
+
+.instagram { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/instagram_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px;
+cursor: pointer;
+transition: 0.3s; 
+}
+
+.instagram:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+ }
+
+
+.linkedIn { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/linkedin_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px; 
+cursor: pointer;
+transition: 0.3s;
+ }
+
+.linkedIn:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+ }
+
+.twitter { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/twitter_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.twitter:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+ }
+
+.facebook { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/Facebook_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px;
+cursor: pointer;
+transition: 0.3s;
+ }
+
+.facebook:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+}
