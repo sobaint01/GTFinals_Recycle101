@@ -188,7 +188,7 @@
     align-items: center !important;
     margin-left: auto !important;
     margin-right: 10px !important;
-    outline: 2px solid red !important;
+    /*outline: 2px solid red !important;*/
     width: 100% !important; 
     color: black;
     background-color: #F2F5F9 !important; 
