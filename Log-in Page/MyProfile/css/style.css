@@ -15,6 +15,14 @@
     font-family: 'Russo One', sans-serif !important;
 }
 
+.smaller-screen{
+    display: none;
+}
+
+.collapse{
+    display: none;
+}
+
 .dropdown-menu{
     background-color: #F2F5F9;
 }
@@ -320,4 +328,65 @@ transition: 0.3s;
     
     transform: scale(1.4);
     cursor: pointer; 
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navbar {
+        display: none;
+    
+    }
+
+    .smaller-screen {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .collapse{
+        display: flex;
+           
+    }
+    
+    
+    .smaller-screen img {
+        margin-left: 10px;
+    }
+   
+    .small-screen-cont{
+        display: flex;
+        
+    } 
+
+    .small-screen-cont{
+        display: flex;
+        justify-content: space-between!important;
+        width: 100%;
+
+    }
+
+    .small-screen-cont .form-inline {
+
+       width: 150px;
+        
+    }
+
+    .bg-dark{
+        background: linear-gradient(110.06deg, #081120 60.22%, #4971AE 97.07%);
+    }
+
+    .small-screen-cont .form-inline button{
+
+        display: none;
+         
+     }
+
+     
+     .small-screen-nav {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+
+     }
+
+  
 }

@@ -12,9 +12,10 @@
 
     </head>
     <body>
-        <!-- Image and text -->
+      <div class="fixed-top">
+        
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="index.html">
             <img src="images/recycle101 no back color.png" width="60" height="60" class="d-inline-block align-center" alt="">RECYCLE 101</a>
 
             <!--dropdowns and primary navigations-->
@@ -30,7 +31,7 @@
                     </div>-->
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/Recycle_Categories/RCindex.html" role="button" aria-expanded="false">Recycle Categories</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Recycle_Categories/RCindex.html" role="button" aria-expanded="false">Recycle Categories</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Metals</a>
                       <a class="dropdown-item" href="#">Cardboards</a>
@@ -44,7 +45,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Recycle Services</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Services_near_me/SNMindex.html" role="button" aria-expanded="false">Recycle Services</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Bottle Recycle ATMs</a>
                       <a class="dropdown-item" href="#">Recycle Trash Service</a>
@@ -65,13 +66,12 @@
                     </div>
                   </li>
                 </ul>
-              
 
               <!--login forms dropdown-->
 
             <ul class="nav log-in-search">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/My_Profile/index.html" role="button" aria-expanded="false">Log-in</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Log-in</a>
                 <div class="dropdown-menu">
                     <form class="px-4 py-3">  
                       <div class="form-group">
@@ -90,7 +90,7 @@
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-primary">Sign in</button>
+                      <a href="/Log-in Page/"><button type="submit" class="btn btn-primary">Sign in</button></a> 
                     </form>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">New Users? Sign up</a>
@@ -107,6 +107,124 @@
             </ul>
 
         </nav>
+      </div>
+
+        <!--small screen Nav-->
+
+        <div class="fixed-top">
+          <nav class="navbar navbar-dark bg-dark smaller-screen">
+
+            <div class="small-screen-cont">
+
+              <div class="bton">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+               </button>
+
+                <a class="navbar-brand" href="index.html">
+                <img src="images/recycle101 no back color.png" width="30" height="30" class="d-inline-block align-center" alt=""></a>
+              </div>
+
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 searchbrgd" type="submit"></button>
+              </form>
+          </div>
+
+          </nav>
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+             <!-- <h5 class="text-white h4">Collapsed content</h5>
+              <span class="text-muted">Toggleable via the navbar brand.</span>-->
+
+              <ul class="nav primaryNav small-screen-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">About</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Our Mission</a>
+                      <a class="dropdown-item" href="#">Our Team</a>
+                      <!--<div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>-->
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Recycle_Categories/RCindex.html" role="button" aria-expanded="false">Recycle Categories</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Metals</a>
+                      <a class="dropdown-item" href="#">Cardboards</a>
+                      <a class="dropdown-item" href="#">Glass</a>
+                      <a class="dropdown-item" href="#">Shrunk and bubble wraps</a>
+                      <a class="dropdown-item" href="#">Plastic 1, 2 and 5</a>
+                      <a class="dropdown-item" href="#">Plastic bags</a>
+                      <a class="dropdown-item" href="#">Steel and tin cans</a>
+                      <a class="dropdown-item" href="#">Cooking fats, Oil and Grease</a>
+                      <a class="dropdown-item" href="#">Yard Trimming Disposal</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Services_near_me/SNMindex.html" role="button" aria-expanded="false">Recycle Services</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Bottle Recycle ATMs</a>
+                      <a class="dropdown-item" href="#">Recycle Trash Service</a>
+                      <a class="dropdown-item" href="#">Yard Trimming Disposal</a>
+                      <a class="dropdown-item" href="#">Glass Recycle Service</a>
+                      <a class="dropdown-item" href="#">Metal and Electronics</a>
+                      <a class="dropdown-item" href="#">Find a Recycling service</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact Us</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Email</a>
+                      <a class="dropdown-item" href="#">Twitter</a>
+                      <a class="dropdown-item" href="#">Instagram</a>
+                      <a class="dropdown-item" href="#">Facebook</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Call Us</a>
+                    </div>
+                  </li>
+                </ul>
+
+              <!--login forms dropdown-->
+
+            <ul class="nav log-in-search">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Log-in</a>
+                <div class="dropdown-menu">
+                    <form class="px-4 py-3">  
+                      <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            Remember me
+                          </label>
+                        </div>
+                      </div>
+                      <a href="/Log-in Page/"><button type="submit" class="btn btn-primary">Sign in</button></a> 
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">New Users? Sign up</a>
+                    <a class="dropdown-item" href="#">Forgot password?</a>
+                  </div>
+              </li>
+
+              <!--search form-->
+
+              
+            </ul>
+
+            </div>
+          </div>
+          
+        </div>
 
         <div class="select">
           <!--<select class="custom-select">
