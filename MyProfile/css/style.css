@@ -64,6 +64,9 @@
     border-color:#081120;
 }
 
+.profileCharts .btn {
+    color: #4971AE;
+}
 
 /**profile body styling**/
 
@@ -72,7 +75,7 @@
     height: 75vh;
     margin: 10px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 150px;
     display: flex;
 
 }
@@ -388,6 +391,78 @@ transition: 0.3s;
          justify-content: flex-start;
 
      }
+
+     .profile{
+        /*outline: 2px solid red;*/
+        height: 150vh;
+        margin: 10px;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .profile-details{
+        height: 75%;
+        width: 100%;
+        margin-left: 10px;
+        margin-left: 10px;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        background: #F2F5F9;
+    }
+
+    .profileCharts{
+        height: 75%;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+
+    .milestone img {
+
+        margin-top: 10px;
+        margin-left: 20px;
+        background: #F2F5F9;
+        outline: #4971AE;
+        margin: 10px;
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .profileCharts-heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    
+    .heading-details-structure{
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    
+    .milestone img {
+        margin-left: 0px
+    }
 
   
 }
