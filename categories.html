@@ -3,17 +3,16 @@
     <head>
       <link rel="shortcut-icon" href="images/recycle101.png">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title> Recycle 101 | Home </title>
+        <link rel="stylesheet" type="text/css" href="css/categories.css">
+        <title> Recycle 101 | Recycle Categories </title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <!-- Image and text -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
-        <div class="fixed-top">
+
+    </head>
+    <body>
+      <div class="fixed-top">
         
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="index.html">
@@ -32,7 +31,7 @@
                     </div>-->
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Recycle_Categories/RCindex.html" role="button" aria-expanded="false">Recycle Categories</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="categories.html" role="button" aria-expanded="false">Recycle Categories</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Metals</a>
                       <a class="dropdown-item" href="#">Cardboards</a>
@@ -46,7 +45,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Services_near_me/SNMindex.html" role="button" aria-expanded="false">Recycle Services</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="categories.html" role="button" aria-expanded="false">Recycle Services</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Bottle Recycle ATMs</a>
                       <a class="dropdown-item" href="#">Recycle Trash Service</a>
@@ -91,7 +90,7 @@
                           </label>
                         </div>
                       </div>
-                      <a href="/Log-in Page/"><button type="submit" class="btn btn-primary">Sign in</button></a> 
+                      <a href="myprofile.html"><button type="submit" class="btn btn-primary">Sign in</button></a> 
                     </form>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">New Users? Sign up</a>
@@ -227,157 +226,180 @@
           
         </div>
 
+        <div class="select">
+          <!--<select class="custom-select">
+            <option selected>Select Categories</option>
+            <option value="1">Aluminium</option>
+            <option value="2">Cardboards</option>
+            <option value="3">Glass</option>
+            <option value="4">Plastic 1, 2 and 5</option>
+            <option value="5">Plastic bags</option>
+            <option value="6">Shrunk and bubble wrap</option>
+            <option value="7">Steel and tin cans</option>
+            <option value="8">Cooking fats, oils and grease</option>
+          </select>-->
 
-        <div class="jumbotron">
-            <h1 class="display-4">Recycle the present,<br> save the future.</h1>
-            <!--<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
-            <form class="form-inline">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1"></span>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Ask Us anything" aria-label="Ask Us anything" aria-describedby="basic-addon1">
-                </div>
-              </form>
-              <!--
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
-          </div>
+          <form class="form-inline-services">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Search services" aria-label="Search services" aria-describedby="basic-addon1">
+            </div>
+          </form>
+        </div>
 
-
-          <!--first card section-->
-
-      <div class="container-fluid">
-        <div class="row">
-          <a href="#">
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-             <!-- <img src="images/blank card cover.png" width="120" height="110" class="card-img-top cardback" alt="...">-->
-              <div class="card-body">
-                  <img src="images/recycle icon .svg" width="120" height="120"> 
-                <h5 class="card-title">Recycle 101</h5>
-                <p class="card-text">Instructions on recycle<br> for beginners.</p>
-                <!--<a href="#" class="btn btn-primary">Book Now</a>-->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Aluminium.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Aluminium</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
               </div>
             </div>
-          </div></a>
-
-
-          <a href="categories.html">
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <!-- <img src="images/blank card cover.png" width="120" height="110" class="card-img-top cardback" alt="...">-->
-              <div class="card-body">
-                <img src="images/categories icon .svg" width="120" height="120">
-                <h5 class="card-title">Recycle Categories</h5>
-                <p class="card-text">Instructions on how to seperate your items by categories and how to properly recycle them
-
-                </p>
-                <!--<a href="#" class="btn btn-primary">Book Now</a>-->
+        
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Cardboard.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Cardboards</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
               </div>
             </div>
-          </div></a>
-
-          <a href="services.html">
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <!-- <img src="images/blank card cover.png" width="120" height="110" class="card-img-top cardback" alt="...">-->
-              <div class="card-body">
-                <img src="images/sevice agent icon.svg" width="120" height="120">
-                <h5 class="card-title">Recycle Services</h5>
-                <p class="card-text">Recycle services<br>near me</p>
-                <!--<a href="#" class="btn btn-primary">Book Now</a>-->
+        
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Glass.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Glass</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
               </div>
             </div>
-           </div></a>
-        </div>
-      </div>
 
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Plastic 1, 2 and 5.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Plastic 1, 2 and 5</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
+              </div>
+            </div>
 
-    <div class="contents-2p">
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/learning_recycle.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Teaching Children in Schools about Recycling</h5>
-            <p>National Recycling Week is fast approaching and, as always, will create some much-needed awareness in the community about the importance of waste management.</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="images/beach_plastic.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Ocean trash affects the health of wildlife</h5>
-            <p>Ocean trash affects the health of wildlife, people and local economies. Trash in the water and on the shore can be mistaken as food by wildlife, or entangle animals with lethal consequences.</p>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Plastic bags.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Plastic bags</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
+              </div>
+            </div>
+        
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Shrunk and bubble wrap.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Shrunk and bubble wrap</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
+              </div>
+            </div>
+        
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Steel and tin cans.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Steel and tin cans</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
+              </div>
+            </div>
+
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="images/Cooking fats, oils and grease.png" width="320" height="300" class="card-img-top cardback" alt="Aluminium cans">
+                <h5 class="card-title">Cooking fats, oils and grease</h5>
+                <!--<div class="card-body">
+                  <img src="images/recycle icon .svg" width="120" height="120">
+                  <h5 class="card-title">Recycle 101</h5>
+                  <p class="card-text">Instructions on recycle<br> for beginners.</p>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>-->
+              </div>
+            </div>
+
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="images/beach_clean_up.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Ocean trash cleanup</h5>
-            <p>The Ocean Cleanup is developing cleanup systems that can clean up the floating plastics caught swirling in the Great Pacific Garbage Patch. System 002.</p>
+
+
+
+        
+
+
+
+        <nav id="footerContainer">
+
+          <ol class="footerNav">
+            <a href="#"><li>About Us</li></a>
+            <a href="categories.html"><li>Recycle Categories</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="#"><li>Contact Us</li></a>
+          </ol>
+
+          <div class="socialsIcon">
+            <a href="#">
+            <div class="ssMedia instagram"></div></a> <!--Instagram-->
+            <a href="#">
+            <div class="ssMedia linkedIn"></div></a><!--LinkedIn-->
+            <a href="#">
+            <div class="ssMedia twitter"></div></a><!--Github-->
+            <a href="#">
+            <div class="ssMedia facebook"></div></a><!--Email-->
           </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </button>
-    </div>
-
-
-    
-    <div class="viewMore">
-      <div class="card-2pb">
-        <!-- <img src="images/blank card cover.png" width="120" height="110" class="card-img-top cardback" alt="...">-->
-        <!--<div class="card-body">-->
-          <a href="login.html"><h1>View<br>More</h1></a>
-          <!--<h5 class="card-title">Recycle Services</h5>
-          <p class="card-text">Recycle services<br>near me</p>
-          <a href="#" class="btn btn-primary">Book Now</a>-->
-      </div>
-    </div>
-    </div>
-
-
-
-    <nav id="footerContainer">
-
-    <ol class="footerNav">
-      <a href="#"><li>About Us</li></a>
-      <a href="categories.html"><li>Recycle Categories</li></a>
-      <a href="services.html"><li>Services</li></a>
-      <a href="#"><li>Contact Us</li></a>
-    </ol>
-
-    <div class="socialsIcon">
-    <a href="#">
-      <div class="ssMedia instagram"></div></a> <!--Instagram-->
-      <a href="#">
-      <div class="ssMedia linkedIn"></div></a><!--LinkedIn-->
-      <a href="#">
-      <div class="ssMedia twitter"></div></a><!--Github-->
-      <a href="#">
-      <div class="ssMedia facebook"></div></a><!--Email-->
-    </div>
  
-    </nav>
+        </nav>
     
+
+
+
+
+
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
-
-  </body>
+    <script src="js/categories.js"></script>
+    
+    </body>
 </html>
