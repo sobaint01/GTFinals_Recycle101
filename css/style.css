@@ -98,10 +98,11 @@
 .container-fluid {
     margin-bottom: 50px;
     margin-top: 50px;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
     justify-content: space-evenly !important;
+    align-items: center !important;
+    display: flex !important;
 }
+
 
 .card{
     height: 400px;
@@ -150,6 +151,7 @@
     width: 65%;
     height: 65vh;
     margin-left: 10px;
+    margin-bottom: 0px !important;
 }
 
 .viewMore{
@@ -189,9 +191,10 @@
 
 .active {
     background-color: black !important;
+    margin-bottom: 0px;
 }
 
-.carousel-caption {
+/**.carousel-caption {
 
     display: flex !important;
     flex-direction: column;
@@ -199,11 +202,36 @@
     align-items: center !important;
     margin-left: auto !important;
     margin-right: 10px !important;
-    /*outline: 2px solid red !important;*/
+    outline: 2px solid red !important;
     width: 100% !important; 
     color: black;
     background-color: #F2F5F9 !important; 
     margin-bottom: 0px !important;
+}**/
+
+.carousel-inner {
+
+    align-items: center !important;
+    margin-right: 10px !important;
+    /*outline: 2px solid red !important;*/
+    width: 100% !important; 
+    color: black;
+    background: #F2F5F9 !important; 
+    margin-bottom: 0px !important;
+}
+
+.carousel-caption {
+    margin-bottom: 0px !important;
+    background: #F2F5F9;
+    color: black;
+
+}
+
+.d-md-block {
+    margin-bottom: 0px !important;
+    background: #F2F5F9;
+    color: black;
+    
 }
 
 .carousel-caption h5 {
@@ -318,6 +346,14 @@ transition: 0.3s;
     .navbar {
         display: none;
     
+    }
+
+    .row {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        
     }
 
     .smaller-screen {
