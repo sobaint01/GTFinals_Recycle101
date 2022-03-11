@@ -298,7 +298,15 @@ transition: 0.3s;
         margin-bottom: 50px !important;
         margin-left: 10px !important;
         margin-right: 10px !important;
-        display: flex;
+        display: flex !important;
+        flex-direction: column !important
+    
+    }
+
+    .row{
+        
+        display: flex !important;
+        flex-direction: column !important
     
     }
 
