@@ -104,8 +104,8 @@ $(".bottleAtms").onClick ( function initMap() {
 
 
 const locations = [
-  { lat: -31.56391, lng: 147.154312 },
-  { lat: -33.718234, lng: 150.363181 },
+  { lat: 33.904, lng: -84.470 },
+  { lat: 33.718, lng: -150.363 },
   { lat: -33.727111, lng: 150.371124 },
   { lat: -33.848588, lng: 151.209834 },
   { lat: -33.851702, lng: 151.216968 },
