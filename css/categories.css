@@ -67,9 +67,13 @@
 }
 
 
+.select{
+    margin-top: 200px;
+}
 
 
 /*card styling*/
+
 
 .container-fluid{
     margin-top: 50px !important;
@@ -288,6 +292,21 @@ transition: 0.3s;
          justify-content: flex-start;
 
      }
+
+     .container-fluid{
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        display: flex;
+    
+    }
+
+    .select{
+        margin-top: 150px;
+        
+        
+    }
 
   
 }
