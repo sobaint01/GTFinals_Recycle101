@@ -92,7 +92,7 @@ $(".bottleAtms").onClick ( function initMap() {
 
     // markers can only be keyboard focusable when they have click listeners
     // open info window when marker is clicked
-    marker.addListener("click", () => {
+    marker.bottleAtms("click", () => {
       infoWindow.setContent(label);
       infoWindow.open(map, marker);
     });
